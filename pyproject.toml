@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "jn-netboks"
+version = "0.1.0"
+description = ""
+authors = ["Kalle M. Aagaard <git@k-moeller.dk>"]
+readme = "README.md"
+packages = [{include = "jn_netboks"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selenium = "^4.8.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
